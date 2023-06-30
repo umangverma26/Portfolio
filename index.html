@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio-Umang Verma</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1a0b15035f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()" ></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Learning Enthusiast</p>
+                <h1>Hi, I'm <span>Umang </span><br>Verma from India </h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------About---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="aboutt">I am a 3rd year B.Tech student with a passion for web development and machine learning. I have been coding since I was in high school, and I have always been fascinated by the power of computers to solve problems. In my free time, I enjoy reading about new technologies, dancing, and spending time with my friends and family.I am currently working on a number of personal project.I am eager to use my skills to make a positive impact on the world.</p>
+                <div class="tab-titles"> 
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                   
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Website designing and development.</li>
+                        <li><span>Machine Learning</span><br>Training Models and predicting results.</li>
+                        <li><span>Graphic Designing</span><br>Audio/Video/Logo Editing</li>
+                        
+                    </ul>
+
+
+                </div>
+
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024</span><br>B.tech from IEM (Kolkata).</li>
+                        <li><span>2019</span><br>Intermediate Education from St.R.C. Scientific Convent School.(U.P)</li>
+                        <li><span>2017</span><br>Secondary School Education from St.R.C. Scientific Convent School.(U.P)</li>
+                        
+                    </ul>
+
+
+                </div>
+                
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>May 2023-Current</span><br>Project Manager at India Heritage Foundation (USA)</li>
+                        <li><span>July 2023- August 2023</span><br>Web Developer intern at Octanet</li>
+                        <li><span>March 2023-Current</span><br>Growth Manager at Prepinsta</li>
+                        <li><span>January 2022-February 2022</span><br>Content Writer at Sewacity Technologies</li>
+                        <li><span>January 2021- March2021</span><br>Business Development Manager at Level Up Academy</li>
+                        
+                    </ul>
+
+
+                </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <!-- --------------Services----------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I am a web designer with a passion for creating beautiful and functional websites. I offer a variety of services, including website design, development, and maintenance. I am always up-to-date on the latest trends and technologies, and I am committed to providing my clients with high-quality work.</p>
+                    <a  href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-sharp fa-regular fa-pen-to-square"></i>
+                    <h2>Graphic Designing</h2>
+                    <p> As a graphic designer, I offer a range of services that breathe life into your ideas. From captivating logos to visually stunning websites, I specialize in crafting designs that leave a lasting impression.Whether you need marketing collateral or a complete brand identity overhaul, I am dedicated to delivering designs that elevate your personal or professional ventures.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code-fork"></i>
+                    <h2>Machine Learning</h2>
+                    <p>I offer beginner-friendly machine learning services as an individual. I understand the challenges faced by beginners in this complex field, and I am here to provide personalized guidance and support. Through one-on-one sessions and tailored training programs.From understanding data preprocessing techniques to implementing algorithms and evaluating model performance.</p>
+                    <a  href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------------Portfolio-------------------- -->
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Work</h1>
+<a href="images/My Cv.pdf" download class="btn cent">Download CV</a>
+</div> 
+</div>
+    
+    <!-- ------------------Contact-------------------- -->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>vermaumang7@gmail.com</p>
+        <p><i class="fa-solid fa-square-phone"></i>+916397440122</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/umang-verma26/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/umang.verma.111"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/umang_verma_26"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/UmangV26"><i class="fa-brands fa-square-twitter"></i></a>
+
+        </div>
+             <a href="images/My Cv.pdf" download class="btn btn2">Download CV</a>
+            </div> 
+
+            <div class="contact-right">
+               <form > 
+                   <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                     <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                     <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+            </div> 
+            
+            
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Umang Verma -  Made with <i class="fas fa-heart"></i></p>
+    </div>
+   </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+       
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0px";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+
+
+    </script>
+</body>
+</html>
